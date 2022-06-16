@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header h2{
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+.header h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    color: white;
+    border-radius: 100px;
+}
+
+.container1{
+    padding: 50px;
+    background-color: #E28525;
+}
+
+.container2{
+    padding: 50px;
+    background-color: #016972;
+}
+
+.container3{
+    padding: 50px;
+    background-color: #00403F;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-top:30px;
+}
+
+p{
+    font-size:20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.button1{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: #E28525;
+    border-width: 0px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.button2{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: #016972;
+    border-width: 0px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.button3{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: #00403F;
+    border-width: 0px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.button1:active {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    border-width: 0px;
+    background-color: #E28525;
+    margin-top: 50px;
+    border: 3px solid white;
+}
+
+.button2:active {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    border-width: 0px;
+    background-color: #016972;
+    margin-top: 50px;
+    border: 3px solid white;
+}
+
+.button3:active {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    border-width: 0px;
+    background-color: #00403F;
+    margin-top: 50px;
+    border: 3px solid white;
+}
+
+.header h2 a:hover{
+    text-decoration: none;
+    color: blue;
+}
